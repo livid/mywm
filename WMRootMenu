@@ -1,0 +1,80 @@
+(
+  NeXT,
+  (
+    Favorites,
+    ("Google Chrome", EXEC, "google-chrome"),
+    ("FileZilla", EXEC, "filezilla")
+  ),
+  (
+    "Web Apps",
+    ("Planet", EXEC, "google-chrome http://192.168.20.200:8086/app2/"),
+    ("Tako", EXEC, "google-chrome http://192.168.20.200:5123/")
+  ),
+  (
+    Info,
+    ("Info Panel", INFO_PANEL),
+    (Preferences, EXEC, WPrefs),
+    ("System Load", SHEXEC, "xosview || xload"),
+    ("Process List", EXEC, "mate-terminal -e btop"),
+    ("Manual Browser", EXEC, xman)
+  ),
+  (
+    Settings,
+    ("Display", EXEC, "xfce4-display-settings"),
+    ("Audio", EXEC, "pavucontrol"),
+    ("Screen Saver", EXEC, "xscreensaver-settings"),
+    ("Mouse", EXEC, "xfce4-mouse-settings"),
+    ("Restart Window Maker", RESTART)
+  ),
+  (Run..., EXEC, "%a(Run,Type command to run:)"),
+  (Terminal, EXEC, "mate-terminal"),
+  ("Google Chrome", EXEC, "google-chrome"),
+  ("Pale Moon", EXEC, palemoon),
+  (
+    "Screenshots",
+    OPEN_MENU,
+    "~/GNUstep/Library/WindowMaker/Screenshots WITH pcmanfm"
+  ),
+  (Workspaces, WORKSPACE_MENU),
+  (
+    Applications,
+    OPEN_PLMENU,
+    "|| wmmenugen -parser:xdg /usr/share/applications/"
+  ),
+  (
+    Utils,
+    (Calculator, EXEC, xcalc),
+    (
+      "Window Properties",
+      SHEXEC,
+      "xprop | xmessage -center -title 'xprop' -file -"
+    ),
+    ("Font Chooser", EXEC, xfontsel),
+    (Magnify, EXEC, wmagnify),
+    (Colormap, EXEC, xcmap),
+    ("Kill X Application", EXEC, xkill)
+  ),
+  (
+    Selection,
+    (Copy, SHEXEC, "echo '%s' | wxcopy"),
+    ("Mail To", EXEC, "xterm -name mail -T Pine -e pine %s"),
+    (Navigate, EXEC, "mozilla %s"),
+    ("Search in Manual", EXEC, "MANUAL_SEARCH(%s)")
+  ),
+  (
+    Commands,
+    ("Hide Others", HIDE_OTHERS),
+    ("Show All", SHOW_ALL),
+    ("Arrange Icons", ARRANGE_ICONS),
+    (Refresh, REFRESH),
+    (Lock, EXEC, "xlock -allowroot -usefirst")
+  ),
+  (Appearance, OPEN_MENU, appearance.menu),
+  (
+    Session,
+    ("Save Session", SAVE_SESSION),
+    ("Clear Session", CLEAR_SESSION),
+    ("Restart Window Maker", RESTART),
+    (Exit, EXIT)
+  )
+)
