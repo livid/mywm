@@ -1,5 +1,8 @@
 (
   NeXT,
+  (Terminal, EXEC, "mate-terminal"),
+  ("Google Chrome", EXEC, "google-chrome"),
+  ("Visual Studio Code", EXEC, "code"),
   (
     Favorites,
     ("Google Chrome", EXEC, "google-chrome"),
@@ -27,8 +30,6 @@
     ("Restart Window Maker", RESTART)
   ),
   (Run..., EXEC, "%a(Run,Type command to run:)"),
-  (Terminal, EXEC, "mate-terminal"),
-  ("Google Chrome", EXEC, "google-chrome"),
   ("Pale Moon", EXEC, palemoon),
   (
     "Screenshots",
@@ -75,6 +76,8 @@
     ("Save Session", SAVE_SESSION),
     ("Clear Session", CLEAR_SESSION),
     ("Restart Window Maker", RESTART),
-    (Exit, EXIT)
+    (Exit, EXIT),
+    ("Reboot", EXEC, "lxqt-leave --reboot"),
+    ("Shutdown", EXEC, "lxqt-leave --shutdown")
   )
 )
