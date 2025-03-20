@@ -1,0 +1,363 @@
+{
+  Dock = {
+    Applications1024 = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = Yes;
+        Command = "/usr/bin/WPrefs";
+      },
+      {
+        Forced = No;
+        Name = PikoPixel.GNUstep;
+        DropCommand = "PikoPixel %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,10";
+        Lock = No;
+        PasteCommand = "PikoPixel %s";
+        Command = PikoPixel;
+      },
+      {
+        Forced = No;
+        Name = "mate-terminal.Mate-terminal";
+        DropCommand = "mate-terminal %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,9";
+        Lock = Yes;
+        PasteCommand = "mate-terminal %s";
+        Command = "mate-terminal";
+      },
+      {
+        Forced = No;
+        Name = wmcore.wmcore;
+        DropCommand = "wmcore %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = Yes;
+        PasteCommand = "wmcore %s";
+        Command = wmcore;
+      },
+      {
+        Forced = No;
+        Name = wmtime.wmtime;
+        DropCommand = "wmtime -digital %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = Yes;
+        PasteCommand = "wmtime -digital %s";
+        Command = "wmtime -digital";
+      },
+      {
+        Forced = No;
+        Name = wmnd.wmnd;
+        DropCommand = "wmnd %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,5";
+        Lock = Yes;
+        PasteCommand = "wmnd %s";
+        Command = wmnd;
+      },
+      {
+        Forced = No;
+        Name = surf.Surf;
+        DropCommand = "surf %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,13";
+        Lock = Yes;
+        PasteCommand = "surf %s";
+        Command = "surf \"http://192.168.20.200:8086/app2/\"";
+      },
+      {
+        Forced = No;
+        Name = wmmatrix.wmmatrix;
+        DropCommand = "wmmatrix %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,6";
+        Lock = Yes;
+        PasteCommand = "wmmatrix %s";
+        Command = wmmatrix;
+      },
+      {
+        Forced = No;
+        Name = "xscreensaver-settings.Xscreensaver-settings";
+        DropCommand = "xscreensaver-settings %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,11";
+        Lock = No;
+        PasteCommand = "xscreensaver-settings %s";
+        Command = "xscreensaver-settings";
+      },
+      {
+        Forced = No;
+        Name = pcmanfm.Pcmanfm;
+        DropCommand = "spacefm %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,2";
+        Lock = No;
+        PasteCommand = "spacefm %s";
+        Command = spacefm;
+      },
+      {
+        Forced = No;
+        Name = Terminal.GNUstep;
+        DropCommand = "Terminal %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,1";
+        Lock = No;
+        PasteCommand = "Terminal %s";
+        Command = Terminal;
+      },
+      {
+        Forced = No;
+        Name = ReDoomEd.GNUstep;
+        DropCommand = "/usr/local/lib/GNUstep/Applications/ReDoomEd.app/ReDoomEd %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,12";
+        Lock = No;
+        PasteCommand = "/usr/local/lib/GNUstep/Applications/ReDoomEd.app/ReDoomEd %s";
+        Command = "/usr/local/lib/GNUstep/Applications/ReDoomEd.app/ReDoomEd";
+      },
+      {
+        Forced = No;
+        Name = "pale moon.Pale moon";
+        DropCommand = "palemoon %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,8";
+        Lock = Yes;
+        PasteCommand = "palemoon %s";
+        Command = palemoon;
+      },
+      {
+        Forced = No;
+        Name = filezilla.Filezilla;
+        DropCommand = "filezilla %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,14";
+        Lock = No;
+        PasteCommand = "filezilla %s";
+        Command = filezilla;
+      },
+      {
+        Forced = Yes;
+        Name = code.Code;
+        DropCommand = "code %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,7";
+        Lock = No;
+        PasteCommand = "code %s";
+        Command = code;
+      }
+    );
+    AutoRaiseLower = No;
+    Applications = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = Yes;
+        Command = "/usr/bin/WPrefs";
+      },
+      {
+        Forced = No;
+        Name = PikoPixel.GNUstep;
+        DropCommand = "PikoPixel %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,10";
+        Lock = No;
+        PasteCommand = "PikoPixel %s";
+        Command = PikoPixel;
+      },
+      {
+        Forced = No;
+        Name = "mate-terminal.Mate-terminal";
+        DropCommand = "mate-terminal %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,9";
+        Lock = Yes;
+        PasteCommand = "mate-terminal %s";
+        Command = "mate-terminal";
+      },
+      {
+        Forced = No;
+        Name = wmcore.wmcore;
+        DropCommand = "wmcore %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = Yes;
+        PasteCommand = "wmcore %s";
+        Command = wmcore;
+      },
+      {
+        Forced = No;
+        Name = wmtime.wmtime;
+        DropCommand = "wmtime -digital %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = Yes;
+        PasteCommand = "wmtime -digital %s";
+        Command = "wmtime -digital";
+      },
+      {
+        Forced = No;
+        Name = wmnd.wmnd;
+        DropCommand = "wmnd %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,5";
+        Lock = Yes;
+        PasteCommand = "wmnd %s";
+        Command = wmnd;
+      },
+      {
+        Forced = No;
+        Name = surf.Surf;
+        DropCommand = "surf %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,13";
+        Lock = Yes;
+        PasteCommand = "surf %s";
+        Command = "surf \"http://192.168.20.200:8086/app2/\"";
+      },
+      {
+        Forced = No;
+        Name = wmmatrix.wmmatrix;
+        DropCommand = "wmmatrix %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,6";
+        Lock = Yes;
+        PasteCommand = "wmmatrix %s";
+        Command = wmmatrix;
+      },
+      {
+        Forced = No;
+        Name = "xscreensaver-settings.Xscreensaver-settings";
+        DropCommand = "xscreensaver-settings %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,11";
+        Lock = No;
+        PasteCommand = "xscreensaver-settings %s";
+        Command = "xscreensaver-settings";
+      },
+      {
+        Forced = No;
+        Name = pcmanfm.Pcmanfm;
+        DropCommand = "spacefm %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,2";
+        Lock = No;
+        PasteCommand = "spacefm %s";
+        Command = spacefm;
+      },
+      {
+        Forced = No;
+        Name = Terminal.GNUstep;
+        DropCommand = "Terminal %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,1";
+        Lock = No;
+        PasteCommand = "Terminal %s";
+        Command = Terminal;
+      },
+      {
+        Forced = No;
+        Name = ReDoomEd.GNUstep;
+        DropCommand = "/usr/local/lib/GNUstep/Applications/ReDoomEd.app/ReDoomEd %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,12";
+        Lock = No;
+        PasteCommand = "/usr/local/lib/GNUstep/Applications/ReDoomEd.app/ReDoomEd %s";
+        Command = "/usr/local/lib/GNUstep/Applications/ReDoomEd.app/ReDoomEd";
+      },
+      {
+        Forced = No;
+        Name = "pale moon.Pale moon";
+        DropCommand = "palemoon %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,8";
+        Lock = Yes;
+        PasteCommand = "palemoon %s";
+        Command = palemoon;
+      },
+      {
+        Forced = No;
+        Name = filezilla.Filezilla;
+        DropCommand = "filezilla %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,14";
+        Lock = No;
+        PasteCommand = "filezilla %s";
+        Command = filezilla;
+      },
+      {
+        Forced = Yes;
+        Name = code.Code;
+        DropCommand = "code %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,7";
+        Lock = No;
+        PasteCommand = "code %s";
+        Command = code;
+      }
+    );
+    Lowered = No;
+    Position = "1216,0";
+  };
+  Clip = {
+    Forced = No;
+    Name = Logo.WMClip;
+    DropCommand = "wmsetbg -u -t %d";
+    BuggyApplication = No;
+    AutoLaunch = No;
+    Position = "0,0";
+    Lock = No;
+    Command = "-";
+  };
+  Applications = ();
+  Drawers = ();
+  Workspaces = (
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = Main;
+    }
+  );
+  Workspace = Main;
+}
